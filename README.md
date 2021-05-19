@@ -1,20 +1,20 @@
-Buttcoin Core integration/staging tree
+Arsepound Core integration/staging tree
 =====================================
 
 
-What is Buttcoin?
+What is Arsepound?
 ----------------
 
-Buttcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Buttcoin uses peer-to-peer technology to operate
+Arsepound is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Arsepound uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Buttcoin Core is the name of open source
+out collectively by the network. Arsepound Core is the name of open source
 software which enables the use of this currency.
 
 License
 -------
 
-Buttcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Arsepound Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -22,7 +22,7 @@ Development Process
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/buttcoin-project/buttcoin/tags) are created
-regularly to indicate new official, stable release versions of Buttcoin Core.
+regularly to indicate new official, stable release versions of Arsepound Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
 and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
