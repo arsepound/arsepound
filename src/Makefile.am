@@ -82,18 +82,18 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += buttcoind
+  bin_PROGRAMS += arsepoundd
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += buttcoin-cli
+  bin_PROGRAMS += arsepound-cli
 endif
 if BUILD_BITCOIN_TX
-  bin_PROGRAMS += buttcoin-tx
+  bin_PROGRAMS += arsepound-tx
 endif
 if ENABLE_WALLET
 if BUILD_BITCOIN_WALLET
-  bin_PROGRAMS += buttcoin-wallet
+  bin_PROGRAMS += arsepound-wallet
 endif
 endif
 
@@ -485,16 +485,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-buttcoind_SOURCES = bitcoind.cpp
-buttcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-buttcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-buttcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+arsepoundd_SOURCES = bitcoind.cpp
+arsepoundd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+arsepoundd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+arsepoundd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-buttcoind_SOURCES += bitcoind-res.rc
+arsepoundd_SOURCES += bitcoind-res.rc
 endif
 
-buttcoind_LDADD = \
+arsepoundd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_SERVER) \
@@ -509,38 +509,38 @@ buttcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-buttcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+arsepoundd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-buttcoin_cli_SOURCES = bitcoin-cli.cpp
-buttcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-buttcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-buttcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+arsepound_cli_SOURCES = bitcoin-cli.cpp
+arsepound_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+arsepound_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+arsepound_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-buttcoin_cli_SOURCES += bitcoin-cli-res.rc
+arsepound_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-buttcoin_cli_LDADD = \
+arsepound_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-buttcoin_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+arsepound_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-buttcoin_tx_SOURCES = bitcoin-tx.cpp
-buttcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-buttcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-buttcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+arsepound_tx_SOURCES = bitcoin-tx.cpp
+arsepound_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+arsepound_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+arsepound_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-buttcoin_tx_SOURCES += bitcoin-tx-res.rc
+arsepound_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-buttcoin_tx_LDADD = \
+arsepound_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -548,20 +548,20 @@ buttcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-buttcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+arsepound_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoin-wallet binary #
-buttcoin_wallet_SOURCES = bitcoin-wallet.cpp
-buttcoin_wallet_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-buttcoin_wallet_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-buttcoin_wallet_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+arsepound_wallet_SOURCES = bitcoin-wallet.cpp
+arsepound_wallet_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+arsepound_wallet_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+arsepound_wallet_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-buttcoin_wallet_SOURCES += bitcoin-wallet-res.rc
+arsepound_wallet_SOURCES += bitcoin-wallet-res.rc
 endif
 
-buttcoin_wallet_LDADD = \
+arsepound_wallet_LDADD = \
   $(LIBBITCOIN_WALLET_TOOL) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_SERVER) \
@@ -574,7 +574,7 @@ buttcoin_wallet_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-buttcoin_wallet_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+arsepound_wallet_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
 #
 
 # bitcoinconsensus library #

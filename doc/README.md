@@ -1,41 +1,41 @@
-Buttcoin Core
+Arsepound Core
 =============
 
 Setup
 ---------------------
-Buttcoin Core is the original Buttcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Buttcoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Arsepound Core is the original Arsepound client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Arsepound transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Buttcoin Core, visit [buttcoin.org](https://buttcoin.org/).
+To download Arsepound Core, visit [arsepound.org](https://arsepound.org/).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Buttcoin Core on your native platform.
+The following are some helpful notes on how to run Arsepound Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/buttcoin-qt` (GUI) or
-- `bin/buttcoind` (headless)
+- `bin/arsepound-qt` (GUI) or
+- `bin/arsepoundd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run buttcoin-qt.exe.
+Unpack the files into a directory, and then run arsepound-qt.exe.
 
 ### macOS
 
-Drag Buttcoin Core to your applications folder, and then run Buttcoin Core.
+Drag Arsepound Core to your applications folder, and then run Arsepound Core.
 
 ### Need Help?
 
-* See the documentation at the [Buttcoin Wiki](https://buttcoin.info/)
+* See the documentation at the [Arsepound Wiki](https://arsepound.info/)
 for help and more information.
-* Ask for help on [#buttcoin](http://webchat.freenode.net?channels=buttcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=buttcoin).
-* Ask for help on the [ButtcoinTalk](https://buttcointalk.io/) forums, in the [Technical Support section](https://buttcointalk.io/c/technical-support).
+* Ask for help on [#arsepound](http://webchat.freenode.net?channels=arsepound) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=arsepound).
+* Ask for help on the [ArsepoundTalk](https://arsepoundtalk.io/) forums, in the [Technical Support section](https://arsepoundtalk.io/c/technical-support).
 
 Building
 ---------------------
-The following are developer notes on how to build Buttcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Arsepound Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -48,7 +48,7 @@ The following are developer notes on how to build Buttcoin Core on your native p
 
 Development
 ---------------------
-The Buttcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Arsepound repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Productivity Notes](productivity.md)
@@ -64,8 +64,8 @@ The Buttcoin repo's [root README](/README.md) contains relevant information on t
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [ButtcoinTalk](https://buttcointalk.io/) forums.
-* Discuss general Buttcoin development on #buttcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=buttcoin-dev.
+* Discuss on the [ArsepoundTalk](https://arsepoundtalk.io/) forums.
+* Discuss general Arsepound development on #arsepound-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=arsepound-dev.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

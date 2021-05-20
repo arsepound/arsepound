@@ -90,8 +90,8 @@
         <translation>Vhura &amp;URI</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -153,8 +153,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     </context>
 <context>
@@ -182,8 +182,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Buttcoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Buttcoin (sekuti %1)</translation>
+        <source>Enter a Arsepound address (e.g. %1)</source>
+        <translation>Nyora kero ye Arsepound (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

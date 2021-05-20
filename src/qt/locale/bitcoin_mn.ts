@@ -122,8 +122,8 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -221,8 +221,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>Error</source>

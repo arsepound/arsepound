@@ -66,12 +66,12 @@
         <translation>Adresa prijímaťeľa</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto je vaša Buttcoin adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
+        <source>These are your Arsepound addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto je vaša Arsepound adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto je vaša Buttcoin adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
+        <source>These are your Arsepound addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto je vaša Arsepound adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrďiť zašifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BUTTCOINS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Keď si zašifrujete vašu peňaženku a stratíte svoju frázu, &lt;b&gt; STRATÍTE VŠETKY VAŠE BUTTCOINY &lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARSEPOUNDS&lt;/b&gt;!</source>
+        <translation>Upozornenie: Keď si zašifrujete vašu peňaženku a stratíte svoju frázu, &lt;b&gt; STRATÍTE VŠETKY VAŠE ARSEPOUNDY &lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -334,8 +334,8 @@
         <translation>Proxy je &lt;b&gt;povolené&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>Poslať mince do Buttcoin adresy</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>Poslať mince do Arsepound adresy</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Overiť správu...</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -382,12 +382,12 @@
         <translation>Zašifrovať súkromné kľúče patriace k vašej peňaženke</translation>
     </message>
     <message>
-        <source>Sign messages with your Buttcoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou Buttcoin adresou pre dokázanie že ich vlastníte</translation>
+        <source>Sign messages with your Arsepound addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou Arsepound adresou pre dokázanie že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Buttcoin addresses</source>
-        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Buttcoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Arsepound addresses</source>
+        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Arsepound adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>Panel nástrojov</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and buttcoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje sa QR kód a buttcoin: URI)</translation>
+        <source>Request payments (generates QR codes and arsepound: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje sa QR kód a arsepound: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,16 +418,16 @@
         <translation>Ukázať zoznam použitých prijímacích adries a štítkov</translation>
     </message>
     <message>
-        <source>Open a buttcoin: URI or payment request</source>
-        <translation>Otvoriť Buttcoin: URI alebo vyžiadanie platby</translation>
+        <source>Open a arsepound: URI or payment request</source>
+        <translation>Otvoriť Arsepound: URI alebo vyžiadanie platby</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Buttcoin network</source>
-        <translation><numerusform>%n aktívne pripojenia na Buttcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Buttcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Buttcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Buttcoin sieti</numerusform></translation>
+        <source>%n active connection(s) to Arsepound network</source>
+        <translation><numerusform>%n aktívne pripojenia na Arsepound sieti</numerusform><numerusform>%n aktívne pripojenia na Arsepound sieti</numerusform><numerusform>%n aktívne pripojenia na Arsepound sieti</numerusform><numerusform>%n aktívne pripojenia na Arsepound sieti</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -470,8 +470,8 @@
         <translation>Aktuálne</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Buttcoin command-line options</source>
-        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Buttcoin príkazovom riadku</translation>
+        <source>Show the %1 help message to get a list with possible Arsepound command-line options</source>
+        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Arsepound príkazovom riadku</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -554,8 +554,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a aktuálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Buttcoin can no longer continue safely and will quit.</source>
-        <translation>Nastala fatálna chyba. Buttcoin už nemôže pokračovať bezpečne a vypne sa.</translation>
+        <source>A fatal error occurred. Arsepound can no longer continue safely and will quit.</source>
+        <translation>Nastala fatálna chyba. Arsepound už nemôže pokračovať bezpečne a vypne sa.</translation>
     </message>
 </context>
 <context>
@@ -744,8 +744,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Buttcoin address.</source>
-        <translation>Vložená adresa ''%1'' nie je platná Buttcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Arsepound address.</source>
+        <translation>Vložená adresa ''%1'' nie je platná Arsepound adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -841,8 +841,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -853,8 +853,8 @@
         <translation>V tomto adresári bude uložených približne %1 GB dát.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Buttcoin block chain.</source>
-        <translation>%1 stiahne a bude uchovávať kópiu Buttcoin blockchainu.</translation>
+        <source>%1 will download and store a copy of the Arsepound block chain.</source>
+        <translation>%1 stiahne a bude uchovávať kópiu Arsepound blockchainu.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -884,12 +884,12 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the buttcoin network, as detailed below.</source>
-        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Buttcoin sieťou ako je popísané nižšie.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the arsepound network, as detailed below.</source>
+        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Arsepound sieťou ako je popísané nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend buttcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokusy o minutie buttcoinov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
+        <source>Attempting to spend arsepounds that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokusy o minutie arsepoundov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1058,8 +1058,8 @@
         <translation>&amp;Míňať nepotvrdené mince</translation>
     </message>
     <message>
-        <source>Automatically open the Buttcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port Buttcoin klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
+        <source>Automatically open the Arsepound client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port Arsepound klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1074,8 +1074,8 @@
         <translation>Povoliť prichá&amp;dzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Buttcoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa k Buttcoin sieti cez SOCKS5 proxy.</translation>
+        <source>Connect to the Arsepound network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa k Arsepound sieti cez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1110,8 +1110,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Buttcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť sa k Buttcoin sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
+        <source>Connect to the Arsepound network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť sa k Arsepound sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1217,8 +1217,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buttcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Buttcoin sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Arsepound network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Arsepound sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1292,16 +1292,16 @@
         <translation>Chyba pri žiadosti o platbu</translation>
     </message>
     <message>
-        <source>Cannot start buttcoin: click-to-pay handler</source>
-        <translation>Nemôžem spustiť Buttcoin: click-to-pay handler</translation>
+        <source>Cannot start arsepound: click-to-pay handler</source>
+        <translation>Nemôžem spustiť Arsepound: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Narábanie s URI</translation>
     </message>
     <message>
-        <source>'buttcoin://' is not a valid URI. Use 'buttcoin:' instead.</source>
-        <translation>'buttcoin://' je nesprávna URI. Namiesto toho použite 'buttcoin'.</translation>
+        <source>'arsepound://' is not a valid URI. Use 'arsepound:' instead.</source>
+        <translation>'arsepound://' je nesprávna URI. Namiesto toho použite 'arsepound'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1312,8 +1312,8 @@
         <translation>Neplatná platobná adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Buttcoin address or malformed URI parameters.</source>
-        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Buttcoin adresou alebo chybnými parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Arsepound address or malformed URI parameters.</source>
+        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Arsepound adresou alebo chybnými parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1414,8 +1414,8 @@
         <translation>Čiastka</translation>
     </message>
     <message>
-        <source>Enter a Buttcoin address (e.g. %1)</source>
-        <translation>Vložte buttcoin adresu (napr. %1)</translation>
+        <source>Enter a Arsepound address (e.g. %1)</source>
+        <translation>Vložte arsepound adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1850,8 +1850,8 @@
         <translation>&amp;Správa:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Buttcoin network.</source>
-        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Buttcoin sieti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Arsepound network.</source>
+        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Arsepound sieti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2271,8 +2271,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation><numerusform>Predpoklad na začanie potvrdenia do %n bloku.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Buttcoin address</source>
-        <translation>Upozornenie: Nesprávna Buttcoin adresa</translation>
+        <source>Warning: Invalid Arsepound address</source>
+        <translation>Upozornenie: Nesprávna Arsepound adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2314,8 +2314,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Toto je normálna platba</translation>
     </message>
     <message>
-        <source>The Buttcoin address to send the payment to</source>
-        <translation>Buttcoin adresa do ktorej môžete poslať platbu</translation>
+        <source>The Arsepound address to send the payment to</source>
+        <translation>Arsepound adresa do ktorej môžete poslať platbu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2334,8 +2334,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vymazať tento vstup</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less buttcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Buttcoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less arsepounds than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Arsepoundov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2362,8 +2362,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Zadajte štítok pre túto adresu aby ste ju pridali do zoznamu použitých adries.</translation>
     </message>
     <message>
-        <source>A message that was attached to the buttcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Buttcoin network.</source>
-        <translation>Správa pripojená k Buttcoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Buttcoin sieť.</translation>
+        <source>A message that was attached to the arsepound: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Arsepound network.</source>
+        <translation>Správa pripojená k Arsepound URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Arsepound sieť.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2407,12 +2407,12 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive buttcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Buttcoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive arsepounds sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Arsepoundy ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
     </message>
     <message>
-        <source>The Buttcoin address to sign the message with</source>
-        <translation>Buttcoin adresa na podpísanie správy</translation>
+        <source>The Arsepound address to sign the message with</source>
+        <translation>Arsepound adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2443,8 +2443,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Skopírovať aktuálny podpis do clipboardu systému</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Buttcoin address</source>
-        <translation>Podpíšte túto správu na overenie vlastníctva tejto Buttcoin adresy</translation>
+        <source>Sign the message to prove you own this Arsepound address</source>
+        <translation>Podpíšte túto správu na overenie vlastníctva tejto Arsepound adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2467,12 +2467,12 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vložte adresu príjemcu a správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odseky  atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu Man-in-the-middle útokom. Poznámka: Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Buttcoin address the message was signed with</source>
-        <translation>Buttcoin adresa s ktorou bola táto správa podpísaná</translation>
+        <source>The Arsepound address the message was signed with</source>
+        <translation>Arsepound adresa s ktorou bola táto správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Buttcoin address</source>
-        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Buttcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Arsepound address</source>
+        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Arsepound adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3127,8 +3127,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Nebolo možné spustiť HTTP server. Pozrite si debug log pre viac informácií.</translation>
     </message>
     <message>
-        <source>Buttcoin Core</source>
-        <translation>Buttcoin Core</translation>
+        <source>Arsepound Core</source>
+        <translation>Arsepound Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

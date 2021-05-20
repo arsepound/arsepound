@@ -62,12 +62,12 @@
         <translation>收款地址</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的 Buttcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your Arsepound addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這些是你要付款過去的 Arsepound 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的 Buttcoin 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your Arsepound addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是你用來收款的 Arsepound 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BUTTCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Buttcoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARSEPOUNDS&lt;/b&gt;!</source>
+        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Arsepound 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -306,8 +306,8 @@
         <translation>正在為磁碟區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>付款至一個 Buttcoin 位址</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>付款至一個 Arsepound 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -330,8 +330,8 @@
         <translation>驗證訊息... &amp;V</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -362,8 +362,8 @@
         <translation>說明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and buttcoin: URIs)</source>
-        <translation>要求付款 (產生QR碼 buttcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and arsepound: URIs)</source>
+        <translation>要求付款 (產生QR碼 arsepound: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -407,8 +407,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>Error</source>
@@ -448,8 +448,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Buttcoin address (e.g. %1)</source>
-        <translation>輸入一個 Buttcoin 位址 (例如 %1)</translation>
+        <source>Enter a Arsepound address (e.g. %1)</source>
+        <translation>輸入一個 Arsepound 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

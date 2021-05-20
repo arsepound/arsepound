@@ -66,12 +66,12 @@
         <translation>Fogadási cím</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezek a Buttcoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
+        <source>These are your Arsepound addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezek a Arsepound címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezek a Buttcoin címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
+        <source>These are your Arsepound addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezek a Arsepound címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -173,8 +173,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca titkosításának megerősítése</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BUTTCOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES BUTTCOINJA ELVESZIK&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARSEPOUNDS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES ARSEPOUNDJA ELVESZIK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -327,8 +327,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>Buttcoin küldése megadott címre</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>Arsepound küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -351,8 +351,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -375,12 +375,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Buttcoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Buttcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Arsepound addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Arsepound-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Buttcoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Buttcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Arsepound addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Arsepound-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -399,8 +399,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and buttcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "buttcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and arsepound: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "arsepound:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,16 +411,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a buttcoin: URI or payment request</source>
-        <translation>"buttcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a arsepound: URI or payment request</source>
+        <translation>"arsepound:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Buttcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Buttcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Buttcoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Arsepound network</source>
+        <translation><numerusform>%n aktív kapcsolat a Arsepound hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Arsepound hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -463,8 +463,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Naprakész</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Buttcoin command-line options</source>
-        <translation>A %1 súgó megjelenítése a Buttcoin lehetséges parancssori kapcsolóinak listájával</translation>
+        <source>Show the %1 help message to get a list with possible Arsepound command-line options</source>
+        <translation>A %1 súgó megjelenítése a Arsepound lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -541,8 +541,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Buttcoin can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A Buttcoin működése nem biztonságos és hamarosan leáll.</translation>
+        <source>A fatal error occurred. Arsepound can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A Arsepound működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -731,8 +731,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Buttcoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Buttcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Arsepound address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Arsepound-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -816,8 +816,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -828,8 +828,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hozzávetőlegesen %1 GB adatot fogunk ebben a könyvtárban tárolni.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Buttcoin block chain.</source>
-        <translation>%1 le fog töltődni és a Buttcoin blokk lánc egy másolatát fogja tárolni.</translation>
+        <source>%1 will download and store a copy of the Arsepound block chain.</source>
+        <translation>%1 le fog töltődni és a Arsepound blokk lánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -855,12 +855,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the buttcoin network, as detailed below.</source>
-        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a buttcoin hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the arsepound network, as detailed below.</source>
+        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a arsepound hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
-        <source>Attempting to spend buttcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A hálózat nem fogadja el azoknak a buttcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <source>Attempting to spend arsepounds that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A hálózat nem fogadja el azoknak a arsepoundoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1009,8 +1009,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Költése a a jóváhagyatlan visszajárónak</translation>
     </message>
     <message>
-        <source>Automatically open the Buttcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Buttcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Arsepound client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Arsepound-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1025,8 +1025,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Bejövő kapcsolatok engedélyezése.</translation>
     </message>
     <message>
-        <source>Connect to the Buttcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Buttcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Arsepound network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Arsepound hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1061,8 +1061,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Buttcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Csatlakozás a Buttcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <source>Connect to the Arsepound network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Csatlakozás a Arsepound hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1168,8 +1168,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buttcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Buttcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Arsepound network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Arsepound hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1243,8 +1243,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hiba történt a fizetési kérelem során</translation>
     </message>
     <message>
-        <source>Cannot start buttcoin: click-to-pay handler</source>
-        <translation>A buttcoin nem tud elindulni: click-to-pay kezelő</translation>
+        <source>Cannot start arsepound: click-to-pay handler</source>
+        <translation>A arsepound nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1255,8 +1255,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Buttcoin address or malformed URI parameters.</source>
-        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Buttcoin cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Arsepound address or malformed URI parameters.</source>
+        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Arsepound cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1353,8 +1353,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Buttcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Buttcoin címet (pl: %1)</translation>
+        <source>Enter a Arsepound address (e.g. %1)</source>
+        <translation>Ad meg egy Arsepound címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1765,8 +1765,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Üzenet:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Buttcoin network.</source>
-        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Buttcoin hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Arsepound network.</source>
+        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Arsepound hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2142,8 +2142,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A fizetési kérelem lejárt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Buttcoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Buttcoin cím</translation>
+        <source>Warning: Invalid Arsepound address</source>
+        <translation>Figyelmeztetés: Érvénytelen Arsepound cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2185,8 +2185,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Ez normál fizetés.</translation>
     </message>
     <message>
-        <source>The Buttcoin address to send the payment to</source>
-        <translation>Erre a Buttcoin címre küldje az összeget</translation>
+        <source>The Arsepound address to send the payment to</source>
+        <translation>Erre a Arsepound címre küldje az összeget</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2270,8 +2270,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>The Buttcoin address to sign the message with</source>
-        <translation>Buttcoin cím, amivel alá kívánja írni az üzenetet</translation>
+        <source>The Arsepound address to sign the message with</source>
+        <translation>Arsepound cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2302,7 +2302,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Buttcoin address</source>
+        <source>Sign the message to prove you own this Arsepound address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2318,12 +2318,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>The Buttcoin address the message was signed with</source>
-        <translation>Buttcoin cím, amivel aláírta az üzenetet</translation>
+        <source>The Arsepound address the message was signed with</source>
+        <translation>Arsepound cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Buttcoin address</source>
-        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Buttcoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified Arsepound address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Arsepound címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2870,8 +2870,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>HTTP szerver indítása sikertelen. A részleteket lásd: debug log.</translation>
     </message>
     <message>
-        <source>Buttcoin Core</source>
-        <translation>Buttcoin Core</translation>
+        <source>Arsepound Core</source>
+        <translation>Arsepound Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3055,7 +3055,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég buttcoinod.</translation>
+        <translation>Nincs elég arsepoundod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

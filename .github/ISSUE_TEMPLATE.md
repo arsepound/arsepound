@@ -1,8 +1,8 @@
-<!-- This issue tracker is only for technical issues related to Buttcoin Core.
+<!-- This issue tracker is only for technical issues related to Arsepound Core.
 
-General buttcoin questions and/or support requests and are best directed to the [buttcointalk.io forums](https://buttcointalk.io/).
+General arsepound questions and/or support requests and are best directed to the [arsepoundtalk.io forums](https://arsepoundtalk.io/).
 
-For reporting security issues, please contact the Buttcoin developers on the #buttcoin-dev Freenode IRC channel or alternatively you can email us at contact@buttcoin.org.
+For reporting security issues, please contact the Arsepound developers on the #arsepound-dev Freenode IRC channel or alternatively you can email us at contact@arsepound.org.
 
 If the node is "stuck" during sync or giving "block checksum mismatch" errors, please ensure your hardware is stable by running memtest and observe CPU temperature with a load-test tool such as linpack before creating an issue! -->
 
@@ -13,7 +13,7 @@ If the node is "stuck" during sync or giving "block checksum mismatch" errors, p
 
 <!--- How reliably can you reproduce the issue, what are the steps to do so? -->
 
-<!-- What version of Buttcoin Core are you using, where did you get it (website, self-compiled, etc)? -->
+<!-- What version of Arsepound Core are you using, where did you get it (website, self-compiled, etc)? -->
 
 <!-- What type of machine are you observing the error on (OS/CPU and disk type)? -->
 

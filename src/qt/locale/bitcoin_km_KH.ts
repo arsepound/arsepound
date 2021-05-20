@@ -151,8 +151,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Buttcoin មួយ</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Arsepound មួយ</translation>
     </message>
     </context>
 <context>

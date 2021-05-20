@@ -101,7 +101,7 @@ static const char* FEE_ESTIMATES_FILENAME="fee_estimates.dat";
 /**
  * The PID file facilities.
  */
-static const char* BITCOIN_PID_FILENAME = "buttcoind.pid";
+static const char* BITCOIN_PID_FILENAME = "arsepoundd.pid";
 
 static fs::path GetPidFile()
 {
@@ -206,7 +206,7 @@ void Shutdown(InitInterfaces& interfaces)
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("buttcoin-shutoff");
+    RenameThread("arsepound-shutoff");
     mempool.AddTransactionsUpdated(1);
 
     StopHTTPRPC();
@@ -555,8 +555,8 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/buttcoin-project/buttcoin>";
-    const std::string URL_WEBSITE = "<https://buttcoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/arsepound-project/arsepound>";
+    const std::string URL_WEBSITE = "<https://arsepound.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -661,7 +661,7 @@ static void CleanupBlockRevFiles()
 static void ThreadImport(std::vector<fs::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("buttcoin-loadblk");
+    RenameThread("arsepound-loadblk");
     ScheduleBatchPriority();
 
     {
@@ -1265,9 +1265,9 @@ bool AppInitMain(InitInterfaces& interfaces)
     // Warn about relative -datadir path.
     if (gArgs.IsArgSet("-datadir") && !fs::path(gArgs.GetArg("-datadir", "")).is_absolute()) {
         LogPrintf("Warning: relative datadir option '%s' specified, which will be interpreted relative to the " /* Continued */
-                  "current working directory '%s'. This is fragile, because if buttcoin is started in the future "
+                  "current working directory '%s'. This is fragile, because if arsepound is started in the future "
                   "from a different location, it will be unable to locate the current data files. There could "
-                  "also be data loss if buttcoin is started while in a temporary directory.\n",
+                  "also be data loss if arsepound is started while in a temporary directory.\n",
             gArgs.GetArg("-datadir", ""), fs::current_path().string());
     }
 

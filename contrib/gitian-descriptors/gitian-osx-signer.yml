@@ -1,5 +1,5 @@
 ---
-name: "buttcoin-dmg-signer"
+name: "arsepound-dmg-signer"
 suites:
 - "bionic"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/buttcoin-project/buttcoin-detached-sigs.git"
+- "url": "https://github.com/arsepound-project/arsepound-detached-sigs.git"
   "dir": "signature"
 files:
-- "buttcoin-osx-unsigned.tar.gz"
+- "arsepound-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -29,8 +29,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=buttcoin-osx-unsigned.tar.gz
-  SIGNED=buttcoin-osx-signed.dmg
+  UNSIGNED=arsepound-osx-unsigned.tar.gz
+  SIGNED=arsepound-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

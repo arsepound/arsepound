@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build Buttcoin Core
+Build Arsepound Core
 ------------------------
 
-1. Clone the Buttcoin Core source code:
+1. Clone the Arsepound Core source code:
 
-        git clone https://github.com/buttcoin-project/buttcoin
-        cd buttcoin
+        git clone https://github.com/arsepound-project/arsepound
+        cd arsepound
 
-2.  Build Buttcoin Core:
+2.  Build Arsepound Core:
 
-    Configure and build the headless Buttcoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Arsepound Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -70,13 +70,13 @@ Build Buttcoin Core
 
     or
 
-        cd ~/buttcoin/src
-        cp buttcoind /usr/local/bin/
-        cp buttcoin-cli /usr/local/bin/
+        cd ~/arsepound/src
+        cp arsepoundd /usr/local/bin/
+        cp arsepound-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, Buttcoin Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Arsepound Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -88,28 +88,28 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Buttcoin Core is now available at `./src/buttcoind`
+Arsepound Core is now available at `./src/arsepoundd`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/Buttcoin"
+    mkdir -p "/Users/${USER}/Library/Application Support/Arsepound"
 
-    touch "/Users/${USER}/Library/Application Support/Buttcoin/buttcoin.conf"
+    touch "/Users/${USER}/Library/Application Support/Arsepound/arsepound.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Buttcoin/buttcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Arsepound/arsepound.conf"
 
-The first time you run buttcoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run arsepoundd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Buttcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Arsepound/debug.log
 
 Other commands:
 -------
 
-    ./src/buttcoind -daemon # Starts the buttcoin daemon.
-    ./src/buttcoin-cli --help # Outputs a list of command-line options.
-    ./src/buttcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/arsepoundd -daemon # Starts the arsepound daemon.
+    ./src/arsepound-cli --help # Outputs a list of command-line options.
+    ./src/arsepound-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

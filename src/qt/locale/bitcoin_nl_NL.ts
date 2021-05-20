@@ -62,12 +62,12 @@
         <translation>Ontvangstadres</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Buttcoin adressen voor het versturen van betalingen. Controleer altijd het bedrag en het ontvangstadres voordat u munten verstuurd.</translation>
+        <source>These are your Arsepound addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Arsepound adressen voor het versturen van betalingen. Controleer altijd het bedrag en het ontvangstadres voordat u munten verstuurd.</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Buttcoin adressen voor het ontvangen van betalingen. Het wordt aanbevolen om voor elke transactie een nieuw ontvangstadres te gebruiken.</translation>
+        <source>These are your Arsepound addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Arsepound adressen voor het ontvangen van betalingen. Het wordt aanbevolen om voor elke transactie een nieuw ontvangstadres te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bevestig portemonnee versleuteling</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BUTTCOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als je je portemonnee versleutelt en je wachtwoord kwijtraakt, raak je &lt;b&gt;AL JE BUTTCOINS KWIJT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARSEPOUNDS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als je je portemonnee versleutelt en je wachtwoord kwijtraakt, raak je &lt;b&gt;AL JE ARSEPOUNDS KWIJT&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -322,8 +322,8 @@
         <translation>Blokken op schijf herindexeren...</translation>
     </message>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>Verstuur coins naar een Buttcoin adres</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>Verstuur coins naar een Arsepound adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +346,8 @@
         <translation>&amp;Bericht verifiëren</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -370,12 +370,12 @@
         <translation>Versleutel de privé sleutels die bij je portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Buttcoin addresses to prove you own them</source>
-        <translation>Signeer berichten met je Buttcoin adres om te bewijzen dat ze van jou zijn</translation>
+        <source>Sign messages with your Arsepound addresses to prove you own them</source>
+        <translation>Signeer berichten met je Arsepound adres om te bewijzen dat ze van jou zijn</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Buttcoin addresses</source>
-        <translation>Verifieer berichten om er zeker van te zijn dat ze met specifieke Buttcoin adressen ondertekent zijn</translation>
+        <source>Verify messages to ensure they were signed with specified Arsepound addresses</source>
+        <translation>Verifieer berichten om er zeker van te zijn dat ze met specifieke Arsepound adressen ondertekent zijn</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -394,8 +394,8 @@
         <translation>Tabs taakbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and buttcoin: URIs)</source>
-        <translation>Betalingen aanvragen (genereert QR codes en buttcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and arsepound: URIs)</source>
+        <translation>Betalingen aanvragen (genereert QR codes en arsepound: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -406,8 +406,8 @@
         <translation>Toon de lijst van gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a buttcoin: URI or payment request</source>
-        <translation>Open een buttcoin: URI of betaalverzoek</translation>
+        <source>Open a arsepound: URI or payment request</source>
+        <translation>Open een arsepound: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -450,8 +450,8 @@
         <translation>Up to date</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Buttcoin command-line options</source>
-        <translation>Open het %1 help bericht om een lijst met Buttcoin commando-regel opties te krijgen</translation>
+        <source>Show the %1 help message to get a list with possible Arsepound command-line options</source>
+        <translation>Open het %1 help bericht om een lijst met Arsepound commando-regel opties te krijgen</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -520,8 +520,8 @@
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; op dit moment &lt;b&gt;vergrendeld&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Buttcoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale error is voorgekomen. Buttcoin kan niet langer veilig verder gaan en sluit daardoor af.</translation>
+        <source>A fatal error occurred. Arsepound can no longer continue safely and will quit.</source>
+        <translation>Een fatale error is voorgekomen. Arsepound kan niet langer veilig verder gaan en sluit daardoor af.</translation>
     </message>
 </context>
 <context>
@@ -671,8 +671,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>Error</source>

@@ -2,13 +2,13 @@
 # Copyright (c) 2015-2018 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
-"""Test buttcoind with different proxy configuration.
+"""Test arsepoundd with different proxy configuration.
 
 Test plan:
-- Start buttcoind's with different proxy configurations
+- Start arsepoundd's with different proxy configurations
 - Use addnode to initiate connections
 - Verify that proxies are connected to, and the right connection command is given
-- Proxy configurations to test on buttcoind side:
+- Proxy configurations to test on arsepoundd side:
     - `-proxy` (proxy everything)
     - `-onion` (proxy just onions)
     - `-proxyrandomize` Circuit randomization
@@ -18,8 +18,8 @@ Test plan:
     - proxy on IPv6
 
 - Create various proxies (as threads)
-- Create buttcoinds that connect to them
-- Manipulate the buttcoinds using addnode (onetry) an observe effects
+- Create arsepoundds that connect to them
+- Manipulate the arsepoundds using addnode (onetry) an observe effects
 
 addnode connect to IPv4
 addnode connect to IPv6

@@ -73,7 +73,7 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "buttcoin.conf";
+const char * const BITCOIN_CONF_FILENAME = "arsepound.conf";
 
 ArgsManager gArgs;
 
@@ -661,7 +661,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "buttcoin";
+    const char* pszModule = "arsepound";
 #endif
     if (pex)
         return strprintf(
@@ -686,7 +686,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Buttcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Arsepound";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -696,10 +696,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Buttcoin";
+    return pathRet / "Library/Application Support/Arsepound";
 #else
     // Unix
-    return pathRet / ".buttcoin";
+    return pathRet / ".arsepound";
 #endif
 #endif
 }

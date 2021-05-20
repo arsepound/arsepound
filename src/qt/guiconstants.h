@@ -46,11 +46,11 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Buttcoin"
-#define QAPP_ORG_DOMAIN "buttcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Buttcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Buttcoin-Qt-testnet"
-#define QAPP_APP_NAME_REGTEST "Buttcoin-Qt-regtest"
+#define QAPP_ORG_NAME "Arsepound"
+#define QAPP_ORG_DOMAIN "arsepound.org"
+#define QAPP_APP_NAME_DEFAULT "Arsepound-Qt"
+#define QAPP_APP_NAME_TESTNET "Arsepound-Qt-testnet"
+#define QAPP_APP_NAME_REGTEST "Arsepound-Qt-regtest"
 
 /* One gigabyte (GB) in bytes */
 static constexpr uint64_t GB_BYTES{1000000000};

@@ -1,25 +1,25 @@
-Buttcoin Core version 0.16.3 is now available from:
+Arsepound Core version 0.16.3 is now available from:
 
-  <https://download.buttcoin.org/buttcoin-0.16.3/>
+  <https://download.arsepound.org/arsepound-0.16.3/>
 
 This is a new minor version release, with various bugfixes
 as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/buttcoin-project/buttcoin/issues>
+  <https://github.com/arsepound-project/arsepound/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/buttcoin-dev>
+  <https://groups.google.com/forum/#!forum/arsepound-dev>
 
 How to Upgrade
 ==============
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Buttcoin-Qt` (on Mac)
-or `buttcoind`/`buttcoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/Arsepound-Qt` (on Mac)
+or `arsepoundd`/`arsepound-qt` (on Linux).
 
 The first time you run version 0.15.0 or newer, your chainstate database will be converted to a
 new format, which will take anywhere from a few minutes to half an hour,
@@ -40,10 +40,10 @@ wallets that were created with older versions are not affected by this.
 Compatibility
 ==============
 
-Buttcoin Core is extensively tested on multiple operating systems using
+Arsepound Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Buttcoin Core should also work on most other Unix-like systems but is not
+Arsepound Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes
@@ -53,7 +53,7 @@ Denial-of-Service vulnerability
 -------------------------------
 
 A denial-of-service vulnerability exploitable by miners has been discovered in
-Buttcoin Core versions 0.14.0 up to 0.16.2. It is recommended to upgrade any of
+Arsepound Core versions 0.14.0 up to 0.16.2. It is recommended to upgrade any of
 the vulnerable versions to 0.16.3 as soon as possible.
 
 0.16.3 change log

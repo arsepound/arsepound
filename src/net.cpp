@@ -1445,7 +1445,7 @@ static void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Buttcoin " + FormatFullVersion();
+        std::string strDesc = "Arsepound " + FormatFullVersion();
 
         do {
 #ifndef UPNPDISCOVER_SUCCESS

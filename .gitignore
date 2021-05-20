@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/buttcoin
-src/buttcoind
-src/buttcoin-cli
-src/buttcoin-tx
-src/buttcoin-wallet
-src/test/test_buttcoin
-src/test/test_buttcoin_fuzzy
-src/qt/test/test_buttcoin-qt
+src/arsepound
+src/arsepoundd
+src/arsepound-cli
+src/arsepound-tx
+src/arsepound-wallet
+src/test/test_arsepound
+src/test/test_arsepound_fuzzy
+src/qt/test/test_arsepound-qt
 
 # autoreconf
 Makefile.in
@@ -83,13 +83,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-buttcoin-qt
-buttcoin-Qt.app
+arsepound-qt
+arsepound-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-buttcoin-qt_test
+arsepound-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -101,7 +101,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_buttcoin.coverage/
+test_arsepound.coverage/
 total.coverage/
 coverage_percent.txt
 

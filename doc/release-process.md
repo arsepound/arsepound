@@ -5,7 +5,7 @@ Before every release candidate:
 
 * Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/buttcoin-project/buttcoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/arsepound-project/arsepound/blob/master/contrib/devtools/README.md#gen-manpagessh).
 * Update release candidate version in `configure.ac` (`CLIENT_VERSION_RC`)
 
 Before every minor and major release:
@@ -35,12 +35,12 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/buttcoin-project/gitian.sigs.ltc.git
-    git clone https://github.com/buttcoin-project/buttcoin-detached-sigs.git
+    git clone https://github.com/arsepound-project/gitian.sigs.ltc.git
+    git clone https://github.com/arsepound-project/arsepound-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/buttcoin-project/buttcoin.git
+    git clone https://github.com/arsepound-project/arsepound.git
 
-### Buttcoin maintainers/release engineers, suggestion for writing release notes
+### Arsepound maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -63,7 +63,7 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./buttcoin
+    pushd ./arsepound
     export SIGNER="(your Gitian key, ie bluematt, sipa, etc)"
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -98,10 +98,10 @@ Create the macOS SDK tarball, see the [macOS build instructions](build-osx.md#de
 
 NOTE: Gitian is sometimes unable to download files. If you have errors, try the step below.
 
-By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in buttcoin, then:
+By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in arsepound, then:
 
     pushd ./gitian-builder
-    make -C ../buttcoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../arsepound/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -109,50 +109,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url buttcoin=/path/to/buttcoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url arsepound=/path/to/arsepound,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Buttcoin Core for Linux, Windows, and macOS:
+### Build and sign Arsepound Core for Linux, Windows, and macOS:
 
     export GITIAN_THREADS=2
     export GITIAN_MEMORY=3000
     
     pushd ./gitian-builder
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit buttcoin=v${VERSION} ../buttcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../buttcoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/buttcoin-*.tar.gz build/out/src/buttcoin-*.tar.gz ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit arsepound=v${VERSION} ../arsepound/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../arsepound/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/arsepound-*.tar.gz build/out/src/arsepound-*.tar.gz ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit buttcoin=v${VERSION} ../buttcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../buttcoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/buttcoin-*-win-unsigned.tar.gz inputs/buttcoin-win-unsigned.tar.gz
-    mv build/out/buttcoin-*.zip build/out/buttcoin-*.exe ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit arsepound=v${VERSION} ../arsepound/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../arsepound/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/arsepound-*-win-unsigned.tar.gz inputs/arsepound-win-unsigned.tar.gz
+    mv build/out/arsepound-*.zip build/out/arsepound-*.exe ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit buttcoin=v${VERSION} ../buttcoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../buttcoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/buttcoin-*-osx-unsigned.tar.gz inputs/buttcoin-osx-unsigned.tar.gz
-    mv build/out/buttcoin-*.tar.gz build/out/buttcoin-*.dmg ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit arsepound=v${VERSION} ../arsepound/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../arsepound/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/arsepound-*-osx-unsigned.tar.gz inputs/arsepound-osx-unsigned.tar.gz
+    mv build/out/arsepound-*.tar.gz build/out/arsepound-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`buttcoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`buttcoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`buttcoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `buttcoin-${VERSION}-win[32|64].zip`)
-  4. macOS unsigned installer and dist tarball (`buttcoin-${VERSION}-osx-unsigned.dmg`, `buttcoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`arsepound-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`arsepound-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`arsepound-${VERSION}-win[32|64]-setup-unsigned.exe`, `arsepound-${VERSION}-win[32|64].zip`)
+  4. macOS unsigned installer and dist tarball (`arsepound-${VERSION}-osx-unsigned.dmg`, `arsepound-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs.ltc/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
-Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../buttcoin/contrib/gitian-keys/README.md`.
+Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../arsepound/contrib/gitian-keys/README.md`.
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../buttcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../buttcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../buttcoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../arsepound/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../arsepound/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../arsepound/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -173,22 +173,22 @@ Codesigner only: Create Windows/macOS detached signatures:
 
 Codesigner only: Sign the macOS binary:
 
-    transfer buttcoin-osx-unsigned.tar.gz to macOS for signing
-    tar xf buttcoin-osx-unsigned.tar.gz
+    transfer arsepound-osx-unsigned.tar.gz to macOS for signing
+    tar xf arsepound-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf buttcoin-win-unsigned.tar.gz
+    tar xf arsepound-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/buttcoin-detached-sigs
+    cd ~/arsepound-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -201,25 +201,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/macOS detached signatures:
 
 - Once the Windows/macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [buttcoin-detached-sigs](https://github.com/buttcoin-project/buttcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [arsepound-detached-sigs](https://github.com/arsepound-project/arsepound-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed macOS binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../buttcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../buttcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../buttcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/buttcoin-osx-signed.dmg ../buttcoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../arsepound/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../arsepound/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../arsepound/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/arsepound-osx-signed.dmg ../arsepound-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../buttcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../buttcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../buttcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/buttcoin-*win64-setup.exe ../buttcoin-${VERSION}-win64-setup.exe
-    mv build/out/buttcoin-*win32-setup.exe ../buttcoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../arsepound/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../arsepound/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../arsepound/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/arsepound-*win64-setup.exe ../arsepound-${VERSION}-win64-setup.exe
+    mv build/out/arsepound-*win32-setup.exe ../arsepound-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed macOS/Windows binaries:
@@ -241,23 +241,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-buttcoin-${VERSION}-aarch64-linux-gnu.tar.gz
-buttcoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-buttcoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-buttcoin-${VERSION}-x86_64-linux-gnu.tar.gz
-buttcoin-${VERSION}-osx64.tar.gz
-buttcoin-${VERSION}-osx.dmg
-buttcoin-${VERSION}.tar.gz
-buttcoin-${VERSION}-win32-setup.exe
-buttcoin-${VERSION}-win32.zip
-buttcoin-${VERSION}-win64-setup.exe
-buttcoin-${VERSION}-win64.zip
+arsepound-${VERSION}-aarch64-linux-gnu.tar.gz
+arsepound-${VERSION}-arm-linux-gnueabihf.tar.gz
+arsepound-${VERSION}-i686-pc-linux-gnu.tar.gz
+arsepound-${VERSION}-x86_64-linux-gnu.tar.gz
+arsepound-${VERSION}-osx64.tar.gz
+arsepound-${VERSION}-osx.dmg
+arsepound-${VERSION}.tar.gz
+arsepound-${VERSION}-win32-setup.exe
+arsepound-${VERSION}-win32.zip
+arsepound-${VERSION}-win64-setup.exe
+arsepound-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the buttcoin.org server, nor put them in the torrent*.
+space *do not upload these to the arsepound.org server, nor put them in the torrent*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -267,25 +267,25 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the buttcoin.org server.
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the arsepound.org server.
 
 ```
-- Update buttcoin.org version
+- Update arsepound.org version
 
 - Update other repositories and websites for new version
 
 - Announce the release:
 
-  - buttcoin-dev mailing list
+  - arsepound-dev mailing list
 
-  - blog.buttcoin.org blog post
+  - blog.arsepound.org blog post
 
-  - Update title of #buttcoin and #buttcoin-dev on Freenode IRC
+  - Update title of #arsepound and #arsepound-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Buttcoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Arsepound, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/buttcoin-project/buttcoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/arsepound-project/arsepound/releases/new) with a link to the archived release notes.
 
   - Celebrate

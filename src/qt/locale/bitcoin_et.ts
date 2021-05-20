@@ -66,12 +66,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Buttcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your Arsepound addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Arsepound aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Buttcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Buttcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your Arsepound addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Arsepound aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BUTTCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA BUTTCOINID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARSEPOUNDS&lt;/b&gt;!</source>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA ARSEPOUNDID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -294,8 +294,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Buttcoin address</source>
-        <translation>Saada münte Buttcoini aadressile</translation>
+        <source>Send coins to a Arsepound address</source>
+        <translation>Saada münte Arsepoundi aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -318,8 +318,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Buttcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Buttcoini aadressiga</translation>
+        <source>Sign messages with your Arsepound addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Arsepoundi aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Buttcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Buttcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Arsepound addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Arsepoundi aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and buttcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja buttcoini: URId)</translation>
+        <source>Request payments (generates QR codes and arsepound: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja arsepoundi: URId)</translation>
     </message>
     <message>
-        <source>Open a buttcoin: URI or payment request</source>
-        <translation>Ava buttcoini: URI või maksepäring</translation>
+        <source>Open a arsepound: URI or payment request</source>
+        <translation>Ava arsepoundi: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Buttcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Buttcoini võrku</numerusform><numerusform>%n aktiivset ühendust Buttcoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Arsepound network</source>
+        <translation><numerusform>%n aktiivne ühendus Arsepoundi võrku</numerusform><numerusform>%n aktiivset ühendust Arsepoundi võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Buttcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Buttcoin aadress.</translation>
+        <source>The entered address "%1" is not a valid Arsepound address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Arsepound aadress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -663,8 +663,8 @@
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Buttcoin</source>
-        <translation>Buttcoin</translation>
+        <source>Arsepound</source>
+        <translation>Arsepound</translation>
     </message>
     <message>
         <source>Error</source>
@@ -736,8 +736,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Buttcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Buttcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Arsepound client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Arsepoundi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -835,7 +835,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Buttcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Arsepound network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1341,8 +1341,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Buttcoin address</source>
-        <translation>Hoiatus: Ebakorrektne Buttcoin aadress</translation>
+        <source>Warning: Invalid Arsepound address</source>
+        <translation>Hoiatus: Ebakorrektne Arsepound aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1425,8 +1425,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Buttcoin address to sign the message with</source>
-        <translation>Buttcoin aadress millega sõnum allkirjastada</translation>
+        <source>The Arsepound address to sign the message with</source>
+        <translation>Arsepound aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1457,8 +1457,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Buttcoin address</source>
-        <translation>Allkirjasta sõnum Buttcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Arsepound address</source>
+        <translation>Allkirjasta sõnum Arsepoundi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1477,12 +1477,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Buttcoin address the message was signed with</source>
-        <translation>Buttcoin aadress millega sõnum on allkirjastatud</translation>
+        <source>The Arsepound address the message was signed with</source>
+        <translation>Arsepound aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Buttcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Buttcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Arsepound address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Arsepoundi aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1917,8 +1917,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Buttcoin Core</source>
-        <translation>Buttcoini tuumik</translation>
+        <source>Arsepound Core</source>
+        <translation>Arsepoundi tuumik</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
