@@ -65,7 +65,7 @@ The Arsepound repo's [root README](/README.md) contains relevant information on 
 
 ### Resources
 * Discuss on the [ArsepoundTalk](https://arsepoundtalk.io/) forums.
-* Discuss general Arsepound development on #arsepound-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=arsepound-dev.
+* Discuss general Arsepound development on #arsepound on Libera. If you don't have an IRC client use [webchat here](http://web.libera.chat/?channels=arsepound.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
