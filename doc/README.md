@@ -30,7 +30,7 @@ Drag Arsepound Core to your applications folder, and then run Arsepound Core.
 
 * See the documentation at the [Arsepound Wiki](https://arsepound.info/)
 for help and more information.
-* Ask for help on [#arsepound](http://webchat.freenode.net?channels=arsepound) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=arsepound).
+* Ask for help on [#arsepound](http://web.libera.chat?channels=arsepound) on Libera. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=arsepound).
 * Ask for help on the [ArsepoundTalk](https://arsepoundtalk.io/) forums, in the [Technical Support section](https://arsepoundtalk.io/c/technical-support).
 
 Building
